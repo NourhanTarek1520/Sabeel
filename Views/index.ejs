@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">  
+  <%- include('components/head') -%>
+  <body>
+    <%- include('components/navbar') -%>
+    
+  <div class="container-fluid hero-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="hero-header-inner animated zoomIn">
+              <p class="text-dark">مرحباً بكم في سبيل</p>  <h2 class="display-5 mb-5 text-dark">
+                استكشف أعماق القرآن الكريم
+              </h2>  <a href="/QA" class="btn btn-primary py-3 px-5">اطرح سؤالاً</a>  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- Hero End -->
+      
+        <!-- About Satrt -->
+        <%- include('components/about_container') -%>
+        <!-- About End -->
+       <br>
+        <!-- Activities Start -->
+        <%- include('components/activities_container') -%>
+        <!-- Activities Ends -->
+        <br>
+        <!-- Team Start -->
+        <%- include('components/team_container') -%>
+        <!-- Team End -->
+        <br>
+        <%- include('components/contact_container') -%>
+        
+        <!-- Footer Start -->
+        <%- include('components/footer') -%>
+        <!-- Footer End -->
+        <%- include('components/files') -%>
+   
+    </body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">  
+  <%- include('components/head') -%>
+  <body>
+    <%- include('components/navbar') -%>
+    <div class="container-fluid test-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <!-- <div class="hero-header-inner animated zoomIn">
+                        <h1 class="display-1 text-dark text-center">اختبر معلوماتك </h1>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+  
+  <div class="container about h-100 " dir="rtl">
+   
+      <div class="card border shadow p-4">
+        <form id="quiz-form">
+  
+          <div class="question">
+            <h3 class="mb-3"> كم عدد النقاط في القرآن الكريم تقريبًا</h3>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="q1-option-1" name="q1" value="1">
+              <label class="form-check-label" for="q1-option-1"> "1015030" نقطة</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="q1-option-2" name="q1" value="2">
+              <label class="form-check-label" for="q1-option-2">"1915030" نقطة</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="q1-option-2" name="q1" value="2">
+              <label class="form-check-label" for="q1-option-2">"191890" نقطة</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="q1-option-3" name="q1" value="3">
+              <label class="form-check-label" for="q1-option-3">"205030" نقطة</label>
+            </div>
+          </div>
+          <hr>
+          <div class="question">
+            <h3 class="mb-3"> كم عدد النقاط في القرآن الكريم تقريبًا</h3>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="q1-option-1" name="q1" value="1">
+              <label class="form-check-label" for="q1-option-1"> "1015030" نقطة</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="q1-option-2" name="q1" value="2">
+              <label class="form-check-label" for="q1-option-2">"1915030" نقطة</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="q1-option-2" name="q1" value="2">
+              <label class="form-check-label" for="q1-option-2">"191890" نقطة</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="q1-option-3" name="q1" value="3">
+              <label class="form-check-label" for="q1-option-3">"205030" نقطة</label>
+            </div>
+          </div>
+          <hr>
+  
+          <button type="submit" class="btn btn-primary mt-4">إرسال الاختبار</button>
+  
+        </form>
+  
+        <div id="results" class="hidden">
+          <h2>نتيجة الاختبار: <span id="score"></span></h2>
+          <p id="feedback"></p>
+        </div>
+      </div>
+   
+  </div>
+  
+
+    <!-- Footer Start -->
+    <%- include('components/footer') -%>
+        <!-- Footer End -->
+    <%- include('components/files') -%>
+    </body>
+
+</html>

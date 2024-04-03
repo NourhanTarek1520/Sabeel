@@ -37,9 +37,6 @@ app.get('/contact',async(req,res,next)=>{
 app.get('/event',async(req,res,next)=>{
     res.render('event')
 })
-app.get('/test', async(req, res, next)=>{
-    res.render('test')
-})
 app.get('/QA', async(req, res ,next)=>{
     res.render('QA')
 })
@@ -47,7 +44,8 @@ app.get('/search', async(req, res ,next)=>{
     res.render('search')
 })
 
-// ============================ test my code  ======================
+
+
 
 
 //======================= run the app ================================

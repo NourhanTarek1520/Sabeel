@@ -501,3 +501,19 @@ h4, h5, h6, .h4, .h5, .h6 {
     font-size: 18px;
 }
 /*** test Header ***/
+
+.quiz-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+  }
+  .question {
+    margin-bottom: 20px;
+  }
+  #result {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    display: none;
+  }

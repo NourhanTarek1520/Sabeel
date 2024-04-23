@@ -1,5 +1,6 @@
 import React from "react";
 import AboutContainer from "../Components/AboutContainer";
+import TeamContainer from "../Components/TeamContainer";
 function About(){
     return(<div>
          {/* <!-- Hero Start --> */}
@@ -20,6 +21,7 @@ function About(){
             </div>
             {/* <!-- Hero End --> */}
           <AboutContainer />
+          <TeamContainer/>
     
     </div>)
 }

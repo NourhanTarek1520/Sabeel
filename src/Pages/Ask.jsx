@@ -10,7 +10,7 @@ return(<div>
                       <h1 className="display-1 text-dark">تفسير القران </h1>
                       <ol className="breadcrumb mb-0">
                           <li className="breadcrumb-item"><a href="#">الرئيسيه</a></li>
-                          <li className="breadcrumb-item"><a href="#">صفحات</a></li>
+                          
                           <li className="breadcrumb-item text-dark" aria-current="page">تفسير القران </li>
                       </ol>
                   </div>

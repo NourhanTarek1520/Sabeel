@@ -11,27 +11,28 @@ function TeamContainer() {
         {/* Single row with team members */}
         <div className="row">
           <div className="d-flex"> {/* Main container for team members */}
+          <div className="team-item mr-4"> 
+              <img
+                src="../../assets/img/team/Nourhan.jpg"
+                alt="Team Member Name"
+                className="img-fluid rounded-circle mb-3 team-member-image"
+              />
+              <h2>Nourahn Tarek </h2>
+              <p>Backend Developer </p>
+            </div> 
             <div className="team-item mr-4"> 
               <img
-                src="../../assets/img/mostafa.png"
+                src="../../assets/img/team/mostafa.png"
                 alt="Team Member Name"
                 className="img-fluid rounded-circle mb-3 team-member-image"
               />
               <h2>Mostafa Gamal </h2>
               <p>data scientist</p>
             </div>
-            <div className="team-item mr-4"> 
-              <img
-                src="../../assets/img/Nourhan.jpg"
-                alt="Team Member Name"
-                className="img-fluid rounded-circle mb-3 team-member-image"
-              />
-              <h2>Nourahn Tarek </h2>
-              <p>Backend Developer </p>
-            </div>
+            
             <div className="team-item mr-4">
               <img
-                src="../../assets/img/Sara.png"
+                src="../../assets/img/team/Sara.png"
                 alt="Team Member Name"
                 className="img-fluid rounded-circle mb-3 team-member-image"
               />
@@ -40,7 +41,7 @@ function TeamContainer() {
             </div>
             <div className="team-item mr-4"> 
               <img
-                src="../../assets/img/mahoud.png"
+                src="../../assets/img/team/mahoud.png"
                 alt="Team Member Name"
                 className="img-fluid rounded-circle mb-3 team-member-image"
               />
@@ -49,7 +50,7 @@ function TeamContainer() {
             </div>
             <div className="team-item"> 
               <img
-                src="../../assets/img/amera.png"
+                src="../../assets/img/team/amera.png"
                 alt="Team Member Name"
                 className="img-fluid rounded-circle mb-3 team-member-image"
               />

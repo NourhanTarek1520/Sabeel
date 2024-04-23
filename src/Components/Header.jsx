@@ -30,12 +30,13 @@ function Header() {
                         <div className="nav-item dropdown">
                             <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">صفحات</a>
                             <div className="dropdown-menu m-0 rounded-0">
-                                <a href="/test" className="dropdown-item">اختبر نفسك</a>
+                                
                                 <a href="/QA" className="dropdown-item">اسأل سؤال</a>
-                                <a href="/search" className="dropdown-item">بحث</a>
+                         
                                 <a href="/plan" className="dropdown-item">خطه حفظ القران</a>
                                 <a href="/QuranSearch" className="dropdown-item">معلومات عن السور</a>
-                                <a href="/QuranJuz" className="dropdown-item">معلومات عن الاجزاء</a>
+                                <a href="/TafseerBooks" className="dropdown-item">كتب التفسير</a>
+                                
 
                             </div>
                         </div>

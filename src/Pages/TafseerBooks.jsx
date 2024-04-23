@@ -27,7 +27,30 @@ function QuranSearch() {
   };
 
   return (
-    <div className="quran-search">
+    <>
+     <div class="container-fluid hero-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="hero-header-inner animated zoomIn">
+                <h3 class=" text-dark">كتب التفسير</h3>
+                <ol class="breadcrumb mb-0">
+                  <li class="breadcrumb-item">
+                    <a href="/">الرئيسيه</a>
+                  </li>
+                  <li class="breadcrumb-item text-dark" aria-current="page">
+                    كتب التفسير
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div className="quran-search">
       <h1>Search Quran Tafseers</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="book-name">Enter Book Name:</label>
@@ -54,6 +77,8 @@ function QuranSearch() {
         </div>
       )}
     </div>
+    </>
+ 
   );
 }
 

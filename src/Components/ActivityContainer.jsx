@@ -49,9 +49,9 @@ return(<div>
                     <div className="activities-item p-4 wow fadeIn" data-wow-delay="0.1s">
                         <i className="fa fa-book fa-4x text-dark"></i>
                         <div className="ms-4">
-                            <h4> ابحث عن مكان الايات</h4>
+                            <h4 >معلومات عن السور </h4>
                             <p className="mb-4">
-                                اكتب الايات بلغه عربيه صحيحه و سيساعدك سبيل في معرفه رقم الايه و اسم السوره التي توجد بها 
+                                اكتب اسم السوره بلغه عربيه صحيحه و سيساعدك سبيل في معرفه كل المعلومات عنها  
                             </p>
                             <a href="/search" className="btn btn-primary px-3">اقرأ المزيد</a>
                         </div>

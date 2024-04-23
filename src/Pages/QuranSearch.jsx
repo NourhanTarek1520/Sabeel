@@ -39,13 +39,13 @@ function QuranSearch() {
           <div class="row">
             <div class="col-lg-7">
               <div class="hero-header-inner animated zoomIn">
-                <h1 class="display-1 text-dark">QuranSearch</h1>
+                <h3 class=" text-dark">معلومات عن السور</h3>
                 <ol class="breadcrumb mb-0">
                   <li class="breadcrumb-item">
                     <a href="/">الرئيسيه</a>
                   </li>
                   <li class="breadcrumb-item text-dark" aria-current="page">
-                    QuranSearch
+                    معلومات عن السور
                   </li>
                 </ol>
               </div>
